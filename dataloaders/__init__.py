@@ -13,6 +13,7 @@ def create_loader(args, mode='train'):
         from dataloaders.nyu_dataloader import create_loader
         return create_loader(args, mode=mode)
     elif args.dataset.lower() == 'kitti':
-        return NotImplementedError
+        from dataloaders.kitti_dataloader import create_loader
+        return create_loader(args, mode=mode)
     else:
         return NotImplementedError

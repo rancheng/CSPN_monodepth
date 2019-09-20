@@ -6,7 +6,11 @@
 @Email   : wangxin_buaa@163.com
 @File    : __init__.py.py
 """
-
+#
+# dense_to_sparse, nyu_dataloader and dataloader copyright belongs to Fangchang Ma
+# Under license of MIT
+# https://github.com/fangchangma/sparse-to-dense.pytorch/blob/master/dataloaders/nyu_dataloader.py
+#
 
 def create_loader(args, mode='train'):
     # Data loading code

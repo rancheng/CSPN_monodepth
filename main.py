@@ -20,7 +20,7 @@ from options import Options
 
 def main():
     opt = Options()
-    opt.parse_command()
+    args = opt.parse_command()
     opt.print_items()
 
     # if setting gpu id, the using single GPU

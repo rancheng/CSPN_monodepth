@@ -10,9 +10,9 @@ class Path(object):
     @staticmethod
     def db_root_dir(database):
         if database == 'kitti':
-            return '/data/wangxin/KITTI'
+            return '/your/dataset'
         elif database == 'nyu':
-            return 'D:\\DATASETS\\nyudepthv2\\nyudepthv2'
+            return '/your/dataset'
         else:
             print('Database {} not available.'.format(database))
             raise NotImplementedError
