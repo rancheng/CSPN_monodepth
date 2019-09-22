@@ -2,6 +2,12 @@
 
 ### Build & Run
 
+Install the following depencies:
+```sh
+pip install tensorboardx freeze 
+```
+
+
 This branch fixed some bugs and added the implementation for reading KITTI dataset.
 You need to download the following dataset in HDF5 format:
 ```sh
